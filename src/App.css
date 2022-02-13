@@ -1,38 +1,606 @@
-.App {
-  text-align: center;
+/* .App{
+  border: 0;
+  font-family: 'Tomatoe Grotesk', sans-serif; 
+} */
+ 
+  /* * {
+   outline: 1px solid red; 
+}   */
+.container-fluid{
+  padding:1% 10% 7%;
+  
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+h1,h2,h3,h4,h5{
+  font-family: 'Tomatoe Grotesk', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.feature-text, .pricingt-text{
+  color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+
+
+
+/* TITLES */
+#title{
+   
+
+  width: 100%;
+   /* background-color: #ff4c68; */
+   
+ 
+  
+  
+  
+}
+ .titlleeli{
+  position: absolute;
+width: 32px;
+height: 32px;
+left: 190px;
+top: 144px;
+
+ }
+ .titlleeli2{
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  left: 599px;
+  top: 114px;
+  
+ }
+ .titelimg3{
+  position: absolute;
+width: 56px;
+height: 56px;
+left: 213px;
+top: 573px; 
+ }
+ .titlelips{
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 716px;
+  top: 556px;
+  
+ }
+  
+/* title image */
+
+.titleimage{
+  position: relative;
+  left: 35%;
+  right: 7.14%;
+  top: 2.02%;
+  bottom: 3.02%;
+  width :46%;
+   
+
+}
+/* navbar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+  color: #07969E;
+}
+.navbar-brand{
+font-size: 2rem;
+font-weight: bold;
+color: #07969E;
+font-family: 'Tomatoe Grotesk', sans-serif;
+
+}
+.nav-item{
+padding: 0 5px;
+font-weight: bold;
+font-family: 'Space Grotesk', sans-serif;
+color: #07969E;
+
+  
+}
+.nav-link{
+  color: #07969E;
+  font-family: 'Tomatoe Grotesk', sans-serif;
+}
+
+
+ 
+/* bottons */
+.Download{
+  margin:5px 3px 0 5px;
+  font-size: 2px;
+  line-height: 10px;
+  background: #2D2D2D;
+  border-radius: 10px;
+  padding: 2px 8px;
+  font-family: 'Tomatoe Grotesk', sans-serif;
+  width:144px;
+ 
+  /* White */
+  
+  color: #FFFFFF;
+   
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+padding: 8px 4px;
+  font-size: 1rem; 
+
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+.parag{
+ 
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Tomatoe Grotesk', sans-serif;
+  
+  /* or 150% */
+  
+  
+  /* Grey */
+  
+  color: #4A5050;
+   
+}
+.headlines{
+  
+   
+font-style: normal;
+font-weight: 600;
+font-size: 56px;
+line-height: 60px;
+
+padding-top: 20%;
+letter-spacing: -0.05em;
+
+ 
+
+color: #07969E;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* press section */
+#press{
+  text-align: center;
+  background-color: #fff;
+  padding:3% ;
+}
+.press-img{
+  width: 7%;
+  margin:20px 20px 15px;
+  
+}
+
+ .headlines2{
+  padding-top: 20%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 90%;
+  /* identical to box height, or 29px */
+  width: 376px;
+  letter-spacing: -0.05em;
+  
+  /* Black */
+  
+  color: #2D2D2D;
+ }
+ .parag2 .featurep {
+  font-family: 'Tomatoe Grotesk', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 34px;
+  /* or 150% */
+  width: 432px;
+  /* Grey */
+  
+  color: #4A5050;
+ }
+ .image1{
+  position: static;
+  width: 480px;
+  height: 460px;
+  left: 450px;
+  top: 5px;
+  width: 480px;
+ }
+ .startinvesting{
+  
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  text-decoration: none;
+  letter-spacing: -0.05em;
+  font-family: 'Tomatoe Grotesk', sans-serif;
+  /* Teal/1 */
+  
+  color: #07969E;
+ }
+ /* pricing section */
+#pricing{
+  margin:70px;
+  text-align: center;
+  border-radius: 20px;
+}
+ 
+.pricing-column{
+  margin: auto;
+  padding: 3% 2%;
+   
+  
+}
+.cardheader{
+  padding: 18%;
+  background-color:#FFF4F0;
+  border: white
+}
+.cardheader2{
+  padding: 18%;
+  background-color:#F6F2FF;
+  ;
+  border: white;
+}
+.cardheader3{
+  padding: 18%;
+  background-color:#ECFEFE;
+  ;
+  border: white
+}
+
+
+.imagepos{
+  position: absolute;
+width: 100px;
+height: 100px;
+left: calc(50% - 100px/1.8 - 2px);
+top: 50px;
+margin: 10px;
+background-color: white;
+border:10px solid white;
+border-radius: 50%;
+
+}
+.featurep{
+  font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+font-family: 'Tomatoe Grotesk', sans-serif;
+/* or 150% */
+
+text-align: center;
+letter-spacing: -0.05em;
+
+/* Grey */
+
+color: #4A5050;
+
+}
+.cardbody{
+  padding-top: 5rem;
+}
+.featurebody{
+   
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 125% */
+
+letter-spacing: -0.05em;
+
+/* Grey */
+
+color: #4A5050;;
+font-family: 'Tomatoe Grotesk', sans-serif;
+
+}
+.featuresp{
+  color:#919FB5;
+}
+.riseappp{
+  font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+/* identical to box height, or 167% */
+
+letter-spacing: -0.05em;
+
+/* Black */
+
+color: #2D2D2D;
+}
+.assessimage{
+  position: relative;
+left: 10.26%;
+right: 4.79%;
+top: 2.97%;
+bottom: 2.97%;
+}
+.assessimage2{
+  position: relative;
+  width: 316.31px;
+  height: 269.2px;
+  left: -200.14px;
+  top: 10.14px;
+  
+
+  
+  filter: drop-shadow(0px 12px 24px rgba(43, 57, 75, 0.15));
+  border-radius: 15px
+}
+
+  .headlines3{
+    padding-top: 20%;
+   
+    font-family: 'Tomatoe Grotesk', sans-serif;
+
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 120%;
+/* identical to box height, or 48px */
+
+letter-spacing: -0.05em;
+    
+    /* Teal/1 */
+    
+    color: #2D2D2D;
+    
+    }
+
+    .futurecolor{
+      color: #9586F2;
+    }
+.button{
+  margin-top: 2rem;
+  background: #07969E;
+border-radius: 5px;
+padding: 10px 16px;
+color: #FFFFFF;
+}
+.regulated{
+  width: 512px;
+  margin: auto;
+  font-family: 'Tomatoe Grotesk', sans-serif;
+  ;
+ 
+   
+}
+ 
+.regulatedback{
+ 
+  background-color: #FFF4F0;
+  opacity: 0.9;
+  background: black;
+
+background: #ff4c68;  /* fallback colour. Make sure this is just one solid colour. */
+background: -webkit-linear-gradient( #FFF4F0, #F6E4F0);
+
+ 
+background: linear-gradient(#FFF4F0,#ECFEFE); 
+
+  padding-top: 5rem;
+}
+#features{
+  padding-top:5rem;
+}
+.feature-box{
+  background: #FFFFFF;
+/* Teal/4 */
+
+border: 1px solid #ECFEFE;
+box-sizing: border-box;
+box-shadow: 0px 12px 24px rgba(64, 187, 195, 0.15);
+border-radius: 10px;
+padding: 1rem;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+/* Grey */
+
+color: #4A5050;
+}
+
+.mission{
+  font-weight: 600;
+font-size: 30px;
+line-height: 120%;
+/* identical to box height, or 48px */
+
+text-align: center;
+letter-spacing: -0.05em;
+
+/* Teal/2 */
+
+color: #40BBC3;
+
+}
+.testimonials{
+  position: static;
+  width: 32px;
+height: 32px;
+left: 0px;
+top: 0px;
+}
+.goal{
+  margin-left:5rem;
+  width:70%;
+}
+.button2{
+  padding: 10px 16px;
+  background: #A0DDE2;
+border-radius: 5px;
+font-weight: 600;
+font-size: 12px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Black */
+
+color: #2D2D2D;
+}
+.ads{
+  
+   width: 80%;
+  height: 394px;
+  left: 80px;
+  top: 5241px;
+  
+  /* Teal/4 */
+  
+  background: #ECFEFE;
+  border-radius: 50px;
+}
+.lastimage{
+  margin-top:2rem;
+  position: absolute;
+  right: 30%;
+  
+ 
+}
+#footer{
+  padding: 7% 10%;
+  background-color: #fff;
+position: relative;
+z-index: 1;
+
+}
+.footerul{
+  list-style-type:none;
+}
+.footerliheader{ 
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 90%;
+  /* or 14px */
+  
+  padding-bottom: 2rem;
+  letter-spacing: -0.05em;
+  
+  /* Black */
+  
+  color: #2D2D2D;
+
+}
+.footerliheader2{ 
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 90%;
+  /* or 14px */
+  
+  padding-bottom: 2rem;
+  letter-spacing: -0.05em;
+  
+  /* Black */
+  
+  color: #2D2D2D;
+  
+
+}
+.footerli{
+  font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+padding-bottom: 1rem;
+/* identical to box height, or 150% */
+
+
+/* Black */
+
+color: #2D2D2D;
+
+}
+@media (max-width:1028px){
+  .container-fluid{
+    padding:2%;
+     text-align: center;
+     width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+  #title{ 
+    padding-left: 3rem;
+      text-align: center;
   }
+  .titleimage{
+    
+    left: 0;
+    right: 7.14%;
+    top: 7.02%;
+    bottom: 3.02%;
+    width :166.29px;
+     
+  
+  }
+  .headlines{
+  
+   
+    font-weight: 600;
+font-size: 40px;
+line-height: 90%;
+/* or 36px */
+
+text-align: center;
+letter-spacing: -0.05em;
+
+    
+     padding-top: 10%;
+    
+    color: #07969E;
+    
+    }
+    .image{
+      width: 280px;
+      
+    }
+    
+  .assessimage2{
+    position: relative;
+    width: 280px;
+    height: 200.2px;
+    left: 1px;
+     
+    top: -301.14px;
+
+  }
+  .assessimage{
+    position: relative;
+  left: 1.26%;
+  right: 4.79%;
+  top: 2.97%;
+  bottom: 2.97%;
+
+  }
+  .titlelips, .titlleeli, .titlleeli2, .titelimg3{
+    display: none;
+  }
+  .regulated{
+    width: 375px;
+     
+     
+   
+     
+  }
+  .goal{
+    margin-left:0;
+    
+  }
+
 }
