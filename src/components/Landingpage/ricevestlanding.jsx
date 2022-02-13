@@ -16,7 +16,7 @@ export default function Ricevestlanding() {
                         <p className="parag">We put your money in high quality assets that help you build wealth and achieve your financial goals.</p>
 
                         <a href="/risevest" className="btn  Download" role="button"><i className="fab fa-apple"></i> <sup>download on the</sup><br /> App Store</a>
-                        <a className="btn  Download" type="button"><i className="fab fa-google-play"></i><sup>download on the</sup><br /> Google Play </a>
+                        <a  href="/risevest" className="btn  Download" type="button"><i className="fab fa-google-play"></i><sup>download on the</sup><br /> Google Play </a>
                         <img className=" titelimg3" src="images/Elilips.png" alt="iphone-mockup" />
                     </div>
                     <div className="col-lg-6">
@@ -154,7 +154,7 @@ export default function Ricevestlanding() {
                             </p>
                             <p className='featurep'><span className='featuresp'>Historical returns:</span>  14% per annum </p>
                             <p className='featurep'><span className='featuresp' >Risk Level:</span>Medium</p>
-                            <a href="" className=' startinvesting ps-1'>Learn how Fixed Income work <i className="fal fa-long-arrow-right"></i> </a>
+                            <a href="/risevest" className=' startinvesting ps-1'>Learn how Fixed Income work <i className="fal fa-long-arrow-right"></i> </a>
                         </div>
                     </div>
 
@@ -184,7 +184,7 @@ export default function Ricevestlanding() {
                         <p className="parag">With Rise, you achieve your financial goals faster. Save for school, your home, vacations, your children's future and more.
 </p>
 
-                        <a href="" className="btn button" role="button"> Start Saving</a>
+                        <a href="/risevest" className="btn button" role="button"> Start Saving</a>
                     
                     </div>
                 </div>
@@ -254,7 +254,7 @@ export default function Ricevestlanding() {
 
                     <h3 className="headlines2">Join The Rise Community</h3>
                     <p className="parag2">If you want to go far, go together. Our Telegram community surrounds you with others who can help you along your financial journey with tips, support, advice and learning. It's completely free and open to new and seasoned investors.</p>
-                    <a href="" className="btn button2" role="button"> Start Saving</a>
+                    <a href="/ricevest" className="btn button2" role="button"> Start Saving</a>
 
                 </div>
                 <div className="col-lg-6">
@@ -273,8 +273,8 @@ export default function Ricevestlanding() {
                         <h3 className="headlines2">Join our 100,000 users investing and setting long term goals!.</h3>
                         <p className="parag">Dollar investments that help you grow.</p>
 
-                        <a href=".risevest" className="btn  Download" role="button"><i className="fab fa-apple"></i> <sup>download on the</sup><br /> App Store</a>
-                        <a className="btn  Download" type="button"><i className="fab fa-google-play"></i><sup>download on the</sup><br /> Google Play </a>
+                        <a href="/risevest" className="btn  Download" role="button"><i className="fab fa-apple"></i> <sup>download on the</sup><br /> App Store</a>
+                        <a href="/risevest" className="btn  Download" type="button"><i className="fab fa-google-play"></i><sup>download on the</sup><br /> Google Play </a>
                         
                     </div>
                     <div className="col-lg-6">
